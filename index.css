@@ -1,6 +1,539 @@
-#school{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Avenir,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+}
+nav{
+    background-color: #F5F5EE;
+    padding: 20px 10px;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 180px; */
+    margin: 0 10px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10px;
+    margin-right: 185px;   
+}
+
+.left ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: left;
+    line-height: 0rem;
+}
+.left ul a li{
+    list-style-type: none;
+    font-size: 16px;
+    color: #222222;
+}
+
+.left ul a{
+    text-decoration: none;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.right p{
+    font-size: 16px;
+    color: #222222;
+    margin: 0px 10px 0 0;
+}
+
+.right a{
+    padding: 5px 8px 7px 8px;
+    background-color: orangered;
+    border-radius: 8px;
+    color: white;
     font-size: 20px;
-    height: 300px;
-    width: 300px;
-    color: green;
+    text-decoration: none;
+    /* padding: 10px 20px; */
+}
+.right a:hover {
+    background-color: rgb(228, 3, 3);
+}
+
+/* .icon{
+    border: 1px solid black
+}
+.bi{
+    display: ;
+} */
+/* section start */
+
+
+
+.imgandtext{
+    display: flex;
+    margin-left: -40px;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.twoitems{
+    left: 600;
+    top: 110; 
+     position: absolute;  
+}
+
+.apl :hover{
+    background-color: orangered;
+}
+.apl a{
+    background-color: #fda942;
+    border-radius: 8px;
+    color: white;
+    margin: 20px 0 0 0;
+    padding: 8px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+.text{
+    margin-left: 260px;
+}
+.text h1{
+    color: #000000;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 5px;
+    line-height: 4rem;
+    text-align: start;
+}
+.text p{
+    font-size: 60px;
+    color: #FB651E;
+    margin: 8px 0 0;
+    font-weight: 600;
+}
+.text h2{
+    font-size: 24px;
+    color: #000000;
+    font-weight: 200;
+    margin-top: 20px;
+}
+.onlytext{
+    padding: 30px 0px;
+    margin: 70px 30px 50px -90px ;
+    background-color: #ffff;
+    line-height: 2rem;
+    
+}
+.apl{
+    margin-top: 30px;
+    margin-left: 260;
+}
+
+.img{
+    background-image: url(../studentpageimage/why-y-combinator.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 596.69px;
+    height: 520px;
+    /* position: relative; */
+    
+}
+
+.four{
+    background-color: #F5F5EE;
+    margin: 0 0 24px 70px;
+    padding: 2.2rem 3rem ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    /* width: 170px; */
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);
+}
+.four p{ 
+    font-size: 35px;
+    color: #FB651E;
+    margin: 0 0 4px;
+    line-height: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+}
+.four h3{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 200;
+    text-align: center;
+}
+.six{
+    background-color: #F5F5EE;
+    margin: 0 0 24px 70px;
+    padding: 2.2rem 3rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    /* width: 170px; */
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);
+}
+.six p{
+    font-size: 35px;
+    color: #FB651E;
+    margin: 0 0 4px;
+    line-height: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+}
+.six h3{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    background-color: #F5F5EE;
+   
+    /* border: 1px solid black; */
+}
+.item{
+    /* border: 1px solid black; */
+    margin-top: 5em;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.item a{
+    text-decoration: none;
+}
+.item a h2{
+    color: blue;
+    font-size: 18px;
+    font-weight: 100px;
+    align-items: start;
+}
+.item ul{
+    list-style-type: none;
+    margin: 10px 0px;
+    text-align: start;
+   
+}
+.item  ul li{
+    color: black;
+    font-size: 16px;
+    margin: auto;
+}
+
+.companies{
+    background-color: #F5F5EE;
+    padding-bottom: 80px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 80px;
+    font-weight: 50px;
+}
+
+section{
+    width: 100%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(120px, 100%), 1fr));
+    column-gap: 20px;
+    row-gap: 30px;
+    margin: auto 110px ;
+    
+    
+}
+.grid--img{
+    height: 20px;
+    padding: 1rem 1.5rem 2.2rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    
+}
+img{
+    width: 70px;
+    background-color: white;
+   padding: 0 ;
+    
+}
+.grid--picc{
+    height: 1rem;
+    max-height: 1.5rem;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.grid--more{
+    height: 20px;
+    padding: 0.70rem 3.2rem 2.3rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    font-size: 24px;
+    text-decoration: none;
+}
+.grid a{
+    text-decoration: none;
+}
+
+.all-text{
+    /* border: 1px solid black; */
+    margin: 50px 0;
+}
+.help-founders{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.help-founders .orange{
+    font-size: 30px;
+    color: #FB651E;
+}
+
+
+
+.fourtext{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(155px, 100%), 1fr));
+    margin-top: 60px;
+    margin: 60px 120px 0px 120px;
+    gap: 2.5em;
+
+ }
+
+ .fourtext .onetext{
+    font-size: 18px;
+    font-family: Avenir,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+    margin: 0px 0px 12px;
+    padding: 0px 0px 0px 16px;
+    color: #000000;
+    border-left: 4px solid orangered;
+    font-weight: 500px;
+    width: 195px;
+    height: 108px;
+
+ }
+ 
+ .bullet{
+    margin: 10px 0 ;
+    width: 225px;
+    height: 228px;
+
+ }
+ .bullet ul{
+    font-size: 16px;
+    font-family: Avenir,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+    color: #000000;
+    margin: 50px 0px 0 0;
+    font-weight: 500px;
+    
+ }
+ .okayed{
+    width: 245px;
+    height: 468px;
+ }
+ .bullet ul li span{
+    color: blue;
+ }
+
+ .vid{
+    background-color: #F5F5EE;
+    margin-top: 150px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+ }
+
+.vid h2{
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    margin: 20px 30%;
+}
+ .vid h2 span{
+    color: #FB651E;
+   
+}
+
+.vid .video{
+    align-items: center;
+    margin: 50px 30%;
+    /* min-width: 41.5%; */
+}
+
+.images{
+    background-color: white;
+    margin-top: 50px;
+}
+
+.images h1{
+    font-size: 30px;
+    /* align-items: center; */
+    /* text-align: center; */
+    margin: 20px 25%;
+}
+
+.images h1 span{
+    color: #FB651E;
+}
+
+.grid-img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(957px, 100%), 1fr));
+    margin: 5rem ;
+    gap: 2em;
+    /* border: solid black medium; */
+    justify-content: center;
+
+}
+.card{
+    background-color: #F5F5EE;
+    padding: 40px 40px 10px;
+    
+    
+}
+.card img{
+    height: 14em;
+    
+}
+
+.card-body p{
+    font-size: 16px;
+    margin: 10px auto;
+    font-family: 50px;
+    text-align: start;
+    line-height: 1.5rem;
+}
+
+.card-body p span{
+    border-left: 4px solid orangered;
+    margin: -10px 5px ;
+    font-weight: 500;
+    text-align: start;
+    padding-left: 5px;
+}
+
+.card-body p a{
+    color: #000000;
+}
+
+.interest{
+    background-color: #F5F5EE;
+    margin-top: 30px;
+    padding-bottom: 70px;
+}
+
+.interest h1{
+    padding-top: 70px;
+}
+
+.interest h1 span{
+    color: #FB651E;
+}
+
+.grid-bullet{
+    display: grid;
+    grid-template-columns: repeat( 2,1fr);
+    text-align: start;
+    margin: 40px 250px;
+    gap: 1em;
+}
+
+.grid-bullet h2{
+    font-size: 16px;
+    font-weight: 0px;
+    padding-left: 10px;
+}
+
+.grid-bullet div span{
+    width: 0.5rem;
+    height: 0.5rem;
+    transform: rotate(45deg);
+    border: #FB651E solid;
+    border-radius: 0.125rem;
+    display: inline-block;
+    background-color: #FB651E;
+}
+
+.grid-threeimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    /* border: solid black medium; */
+    padding: 10px auto;
+}
+
+.grid-threeimg .images img{
+    height: 231.44px;
+    width: 350px;
+    border-radius: 6px;
+    margin: auto;
+}
+
+.txtvid{
+    background-color: white;
+    margin: 10px auto;
+    padding: 20px auto;
+}
+
+.txtvid h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.txtvid .videeo{
+    align-items: center;
+    margin: 20px 30%;
+}
+
+.txtvid h2{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 50px;
+    text-align: center;
+}
+
+.txtvid h2 a{
+    color: #FB651E;
+    text-decoration: none;
+}
+
+.all---texts{
+    background-color: #F5F5EE;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+.all---texts h1{
+    margin-top: 30px;
+}
+
+.all---texts div{
+    display: flex;
+    gap: 1rem;
+    margin: 40px 100px;
+}
+
+.all---texts div img{
+    border-radius: 6px;
 }
